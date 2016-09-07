@@ -1,0 +1,13 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.pro {
+	background-color: yellow;
+}
+
+.test {
+	display: inline-block;
+}
