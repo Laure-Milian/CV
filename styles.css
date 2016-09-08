@@ -1,13 +1,167 @@
 html, body {
   margin: 0;
   padding: 0;
+  font-family: Sans-Serif;
+  margin: 50px auto;
+  background-color: #FFFFFF;
+  color: #333333;
+  font-size: 18px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box; 
+}
+
+body {
+	width: 80%;
 }
 
 
-.pro {
-	background-color: yellow;
+
+/* Informations personnelles */
+
+.info_perso {
+	padding-left: 20px;
 }
 
-.test {
+.info_perso strong {
+	color: #FFC200;
+	font-size: 24px;
+}
+
+
+
+
+/* Compétences */
+
+.competences div {
 	display: inline-block;
+	padding: 0 auto;
+	width: 400px;
 }
+
+.competences h3 {
+	text-align: center;
+}
+
+
+/* Menu */
+
+.menu {
+	text-align: center;
+}
+
+
+.menu li {
+	display: inline-block;
+	margin : 15px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #E0E0E0;
+	font-size: 24px;
+}
+
+.menu a:hover {
+	color: #FFC200;
+}
+
+
+
+
+/* Expériences professionnelles */
+
+#pro {
+	padding: 25 0;
+}
+
+#pro div {
+	padding: 20;
+}
+
+#pro h2 {
+	background-color: #333333;
+	margin-top: 0;
+	padding: 30 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#pro h3 {
+	color: #FFC200;
+}
+
+#pro h3 em {
+	color: #333333;
+}
+
+
+
+/* Parcours de formation */
+
+#formation {
+	padding: 25 0;
+}
+
+#formation div {
+	padding: 20;
+}
+
+#formation h2 {
+	background-color: #333333;
+	margin-top: 0;
+	padding: 30 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#formation h3 {
+	color: #FFC200;
+}
+
+#formation h3 em {
+	color: #333333;
+}
+
+
+
+/* Information supplémentaires */
+
+#infos_sup h2 {
+	background-color: #333333;
+	margin-top: 0;
+	padding: 30 0;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#infos_sup div {
+	display: inline-block;
+	width: 45%;
+	padding: 0px 20px;
+}
+
+
+/* Contact */
+
+#contact {
+	background-color: #333333;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#contact h2 {
+	color: #FFFFFF;
+}
+
+#contact img {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+/*
+div {
+	border: red solid 1px;
+}
+*/
