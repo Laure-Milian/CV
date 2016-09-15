@@ -17,15 +17,22 @@ body {
 
 
 
+
 /* Informations personnelles */
 
 .info_perso {
 	padding-left: 20px;
+	font-size: 20px;
 }
 
 .info_perso strong {
 	color: #FFC200;
 	font-size: 24px;
+}
+
+.info_perso h1 {
+	font-family: 'Lora', serif;
+	font-size: 40px;
 }
 
 
@@ -35,13 +42,22 @@ body {
 
 .competences div {
 	display: inline-block;
-	padding: 0 auto;
-	width: 400px;
+	padding: 0 5px;
+	width: 380px;
 }
 
 .competences h3 {
+	margin-top: 50px;
 	text-align: center;
+	margin-left: -10px;
 }
+
+.competences ul {
+	margin-bottom: 50px;
+	line-height: 1.5;
+}
+
+
 
 
 /* Menu */
@@ -58,7 +74,7 @@ body {
 
 .menu a {
 	text-decoration: none;
-	color: #E0E0E0;
+	color: #8A918F;
 	font-size: 24px;
 }
 
@@ -71,15 +87,15 @@ body {
 
 /* Expériences professionnelles */
 
-#pro {
+.pro {
 	padding: 25 0;
 }
 
-#pro div {
+.pro div {
 	padding: 20;
 }
 
-#pro h2 {
+.pro h2 {
 	background-color: #333333;
 	margin-top: 0;
 	padding: 30 0;
@@ -87,27 +103,31 @@ body {
 	color: #FFFFFF;
 }
 
-#pro h3 {
+.pro h3 {
 	color: #FFC200;
 }
 
-#pro h3 em {
+.pro h3 em {
 	color: #333333;
+	margin-right: 25px;
 }
 
+.pro li {
+	line-height: 1.5;
+}
 
 
 /* Parcours de formation */
 
-#formation {
+.formation {
 	padding: 25 0;
 }
 
-#formation div {
+.formation div {
 	padding: 20;
 }
 
-#formation h2 {
+.formation h2 {
 	background-color: #333333;
 	margin-top: 0;
 	padding: 30 0;
@@ -115,19 +135,24 @@ body {
 	color: #FFFFFF;
 }
 
-#formation h3 {
+.formation h3 {
 	color: #FFC200;
 }
 
-#formation h3 em {
+.formation h3 em {
 	color: #333333;
+	margin-right: 25px;
+}
+
+.formation li {
+	line-height: 1.5;
 }
 
 
 
 /* Information supplémentaires */
 
-#infos_sup h2 {
+.infos_sup h2 {
 	background-color: #333333;
 	margin-top: 0;
 	padding: 30 0;
@@ -135,33 +160,52 @@ body {
 	color: #FFFFFF;
 }
 
-#infos_sup div {
+.infos_sup div {
 	display: inline-block;
-	width: 45%;
-	padding: 0px 20px;
+	width: 595px;
+	line-height: 2.5;
+}
+
+.certifications {
+	margin-left: 0px
+	height: 50px;
+}
+
+.langues {
+	margin-right: 0px;
+	float: right;
 }
 
 
 /* Contact */
 
-#contact {
+.contact {
 	background-color: #333333;
 	text-align: center;
 	color: #FFFFFF;
+	padding: 30 0;
+	margin-top: 40;
 }
 
-#contact h2 {
+.contact h2 {
 	color: #FFFFFF;
 }
 
-#contact img {
-	display: inline-block;
-	width: 50px;
-	height: 50px;
+
+.contact i {
+	color: #FFFFFF;
+	padding: 0 20;
 }
 
-/*
-div {
-	border: red solid 1px;
+.contact i:hover {
+	color: #FFC200;
 }
-*/
+
+.contact a {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.contact a:hover {
+	color: #FFC200;
+}
