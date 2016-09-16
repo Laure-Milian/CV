@@ -22,6 +22,9 @@ body {
 .info_perso {
 	padding-left: 20px;
 	font-size: 20px;
+	width: 700px;
+	float: left;
+	padding-right: 150px;
 }
 
 .info_perso strong {
@@ -35,9 +38,27 @@ body {
 }
 
 
+/* Photo */
+
+.photo {
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+
+.photo img {
+	border-radius: 50%;
+	padding-top: 10px;
+
+}
+
 
 
 /* Compétences */
+
+.competences {
+	clear: both;
+}
 
 .competences div {
 	display: inline-block;
@@ -53,7 +74,8 @@ body {
 
 .competences ul {
 	margin-bottom: 50px;
-	line-height: 1.5;
+	line-height: 2;
+	list-style: none;
 }
 
 
@@ -151,6 +173,7 @@ menu a:hover {
 
 /* Information supplémentaires */
 
+
 .infos_sup h2 {
 	background-color: #333333;
 	margin-top: 0;
@@ -178,6 +201,7 @@ menu a:hover {
 
 
 /* Contact */
+
 
 .contact {
 	background-color: #333333;
