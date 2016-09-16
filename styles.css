@@ -72,6 +72,7 @@ header {
 
 .competences {
 	clear: both;
+	padding: 0px 10px;
 }
 
 .competences div {
@@ -110,7 +111,7 @@ menu ul {
 
 menu li {
 	display: inline-block;
-	margin : 0 35px;
+	margin : 0 40px;
 }
 
 menu a {
